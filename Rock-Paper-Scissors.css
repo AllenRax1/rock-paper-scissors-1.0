@@ -1,0 +1,59 @@
+html{
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: lightgoldenrodyellow;
+}
+
+header{
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 10px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width:50%;
+    border:7.5px solid black;
+    border-radius: 500px;
+    margin:25px;
+
+}
+
+.image-qMark{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width:17%;
+    border:7.75px solid black;
+    border-radius: 500px;
+    margin:25px;
+}
+
+
+.Player-throw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:5px solid black;
+    border-radius: 20px;
+    padding-left:85px;
+    
+}
+
+.Computer-throw{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:5px solid black;
+    border-radius: 20px;
+    margin-top:25px;
+}
+
