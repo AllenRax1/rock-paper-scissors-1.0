@@ -32,6 +32,7 @@ playerImages.forEach((img, index) => {
       const computeRandomChoice = choices[Math.floor(Math.random() * choices.length)];
       showComputer(computeRandomChoice);
       resultElement.textContent = decide(playerChoice, computeRandomChoice);
+      playerImages.forEach(i => i.style.outline = 'none');
     }, 3000);//The computer thinks for 3 seconds here.
   });
 });
